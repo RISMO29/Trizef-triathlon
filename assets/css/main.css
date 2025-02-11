@@ -54,6 +54,17 @@
   --contrast-color: #ffffff;
 }
 
+.rotate{
+
+  
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+   
+.rotate :hover {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
 
 
 /* Smooth scroll */
@@ -178,7 +189,19 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   
+}
+
+.shad{
+  
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.header :hover img {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
 }
 .fond{
 
